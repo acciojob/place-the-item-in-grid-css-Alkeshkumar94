@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+     width:200px;
+	height:200px;
+}
